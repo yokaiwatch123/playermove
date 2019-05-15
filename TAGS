@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Axis
+{
+    private const string vERTICAL_AXIS = "Vertical";
+    private const string hORINZONTAL_AXIS = "Horizontal";
+
+    public static string HORINZONTAL_AXIS { get; internal set; }
+
+    public static string GetVERTICAL_AXIS()
+    {
+        return vERTICAL_AXIS;
+    }
+    public static string GetHORIZONTAL_AXIS()
+    {
+        return hORINZONTAL_AXIS;
+    }
+}
